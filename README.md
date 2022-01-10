@@ -29,3 +29,8 @@ For Ubuntu:
 For windows:
 * https://www.postgresql.org/download/windows/
 * https://www.postgresqltutorial.com/install-postgresql/
+
+images
+https://ibb.co/Tc0bMpL
+https://ibb.co/hKK9Q0G
+https://ibb.co/9tCwnF1
