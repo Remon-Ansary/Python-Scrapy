@@ -4,9 +4,10 @@ import json
 import psycopg2
 conn = psycopg2.connect(dbname="first",user="postgres",password="root", host="localhost")
 cur = conn.cursor()
-# cur.execute("INSERT INTO table1 (title, price) VALUES (%s, %s)", ("hello", "ok"))
+
 
 # cur.execute("CREATE TABLE newdata (id serial PRIMARY KEY, title varchar, price varchar, rating varchar, location varchar, amenities varchar,image varchar);")
+
 
 class QuotesSpider(scrapy.Spider):
 
