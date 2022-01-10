@@ -11,6 +11,11 @@
 
 - PostgreSQL
 
+### File name and Directory:
+
+scrapeQuote.py
+Directory: helloScrapy>helloScrapy>spiders>scrapeQuote.py
+
 ### Installation
 
 After cloning the project at first please install the following packages.
