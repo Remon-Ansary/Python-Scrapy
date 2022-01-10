@@ -13,8 +13,8 @@
 
 ### File name and Directory:
 
-scrapeQuote.py
-Directory: helloScrapy>helloScrapy>spiders>scrapeQuote.py
+* scrapeQuote.py
+* Directory: helloScrapy>helloScrapy>spiders>scrapeQuote.py
 
 ### Installation
 
@@ -33,7 +33,7 @@ For Ubuntu:
 
 - https://kodemonk.dev/blog/installing-pgadmin-4-in-ubuntu-20-04
 
-For windows:
+For Windows:
 
 - https://www.postgresql.org/download/windows/
 - https://www.postgresqltutorial.com/install-postgresql/
