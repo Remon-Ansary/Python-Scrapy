@@ -54,7 +54,3 @@ class QuotesSpider(scrapy.Spider):
 
 
 
-
-
-
-
