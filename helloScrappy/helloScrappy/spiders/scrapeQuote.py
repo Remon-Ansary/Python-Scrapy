@@ -6,7 +6,7 @@ conn = psycopg2.connect(dbname="first",user="postgres",password="root", host="lo
 cur = conn.cursor()
 
 
-# cur.execute("CREATE TABLE newdata (id serial PRIMARY KEY, title varchar, price varchar, rating varchar, location varchar, amenities varchar,image varchar);")
+cur.execute("CREATE TABLE newdata (id serial PRIMARY KEY, title varchar, price varchar, rating varchar, location varchar, amenities varchar,image varchar);")
 
 
 class QuotesSpider(scrapy.Spider):
