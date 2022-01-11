@@ -14,7 +14,7 @@
 ### File name and Directory:
 
 * scrapeQuote.py
-* Directory: helloScrapy>helloScrapy>spiders>scrapeQuote.py
+* Directory: helloScrappy>helloScrappy>spiders>scrapeQuote.py
 
 ### Installation
 
@@ -22,6 +22,11 @@ After cloning the project at first please install the following packages.
 
 - Install scrapy
 - Install psycopg2 or psycopg2-binary
+* scrapy-fake-useragent
+
+You can install these packages using:
+
+* pip install -r requirements.txt
 
 ### For Database
 
@@ -46,7 +51,7 @@ conn = psycopg2.connect(dbname="Your database name",user="postgres",password="Yo
 ## Running the project
 
 After completing the database setup and installing the packages, 
-Please go to the spiders directory inside helloScrapy directory and run the following command:
+Please go to the spiders directory inside helloScrappy directory and run the following command:
 
 * scrapy crawl quotes
 
