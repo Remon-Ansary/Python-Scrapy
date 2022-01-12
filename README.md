@@ -13,8 +13,8 @@
 
 ### File name and Directory:
 
-* scrapeQuote.py
-* Directory: helloScrappy>helloScrappy>spiders>scrapeQuote.py
+- scrapeQuote.py
+- Directory: helloScrappy>helloScrappy>spiders>scrapeQuote.py
 
 ### Installation
 
@@ -22,11 +22,12 @@ After cloning the project at first please install the following packages.
 
 - Install scrapy
 - Install psycopg2 or psycopg2-binary
+
 * scrapy-fake-useragent
 
 You can install these packages using:
 
-* pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ### For Database
 
@@ -48,17 +49,16 @@ Provide your database name and password in the following line
 
 conn = psycopg2.connect(dbname="Your database name",user="postgres",password="Your Password", host="localhost")
 
+* You can also do this by creating a database named 'newdata' and importing the mydb.sql file in pgAdmin4.
+
 ## Running the project
 
-After completing the database setup and installing the packages, 
+After completing the database setup and installing the packages,
 Please go to the spiders directory inside helloScrappy directory and run the following command:
 
-* scrapy crawl quotes
+- scrapy crawl quotes
 
 This will crate a database table with all the data in postgresql database.
 
 !["upper portion"](https://i.ibb.co/sj169kH/scrapy1.png)
 !["upper portion"](https://i.ibb.co/Q66QS0W/scrapy2.png)
-
-
-
